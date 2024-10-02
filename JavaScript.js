@@ -1,0 +1,89 @@
+// let boxes = document.querySelectorAll(".box");
+// let resetbtn = document.querySelector(".reset");
+
+// let turnO = true;
+// const winpatterns = [
+//     [0,1,2],
+//     [3,4,5],
+//     [6,7,8],
+//     [0,3,6],
+//     [1,4,7],
+//     [2,5,8],
+//     [0,4,8],
+//     [2,4,6],
+  
+// ];
+// boxes.forEach((box) => {
+//     box.addEventListener("click", () => {
+//         console.log("Box was clicked");
+//         if(turnO === true) {
+//             box.innerText = "O";
+//             turnO = false;
+//         } else {
+//             box.innerText = "X";
+//             turnO = true;
+//         }
+//         box.disabled = true;
+
+//         checkwin();
+//    });
+// });
+
+// // const restgame = () => {
+// //   trunO =true;
+// // }
+
+// const resetgame = () =>{
+//   turnO = true;
+//   enablebox();
+
+// }
+
+
+// const disablebox = () => {
+//   for(let box of boxes) {
+//     box.disabled = true;
+//   }
+//     box.disabled = true;
+// }
+
+// const checkwin = () => {
+//   for(let pattern of winpatterns) {
+
+//     let pos1val = boxes[pattern[0]].innerText;
+//     let pos2val = boxes[pattern[1]].innerText;
+//     let pos3val = boxes[pattern[2]].innerText;
+
+//     if (pos1val != "" && pos2val != "" && pos3val != "") {
+//         if (pos1val === pos2val && pos2val === pos3val) {
+//            document.getElementById("winner").innerHTML = "W I N N E R    is    O";
+//            disablebox();
+//         }
+
+//     }
+//   }
+
+
+// };
+
+
+
+
+
+
+sum = (name) => {
+    return name;
+}
+
+for(let i=0;i<5;i++) {
+   console.log("hello world!");
+}
+
+let nam = ["sagar","sneha","pappa",["shobha","kunte"]];
+let i=1;
+while ( i<3) {
+   
+         console.log(i);
+   
+   i++;
+}
