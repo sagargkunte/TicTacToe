@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: #ECDCBF;
     
     text-align:center;
 }
@@ -26,15 +26,13 @@ body{
     color:white;
     border:none;
     border-radius:2rem;
-    /* text-decoration:underline; */
-    /* background-color:azure; */
-    background-image:linear-gradient(rgba(151, 197, 196, 0.497),rgb(137, 176, 171),rgb(164, 115, 155));
+    color: black;
 
 }
 .box{
     height:18vmin;
-    color:rgb(117, 109, 109);
-    background-color:rgba(149, 161, 135, 0.574);
+    color: white;
+    background-color:#D84040;
     width:18vmin;
     border-radius:1rem;
     border:none;
